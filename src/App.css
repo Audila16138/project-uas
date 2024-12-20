@@ -1,0 +1,103 @@
+/* Gaya umum */
+body {
+  font-family: "Inter", sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header gaya tambahan */
+header {
+  background-color: #004080; /* Warna biru Muhammadiyah */
+  color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: white;
+  padding: 1rem;
+  font-size: 0.9rem;
+}
+
+/* Hover efek */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  color: #1e90ff; /* Hover biru muda */
+}
+
+/* Utility class tambahan */
+.container {
+  max-width: 1024px;
+}
+
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f9fafb; /* Warna latar belakang halaman */
+  color: #333;
+}
+
+/* Full-Width Navbar */
+header {
+  width: 100%; /* Lebar full-screen */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Shadow bawah navbar */
+}
+
+/* Navbar Container */
+header .container {
+  max-width: 100%; /* Memastikan container 100% */
+  padding: 0 2rem; /* Padding horizontal */
+}
+
+/* Main Content */
+main {
+  padding-top: 20px;
+  flex: 1; /* Flex-grow untuk isi halaman */
+}
+
+/* Footer Styles */
+footer {
+  width: 100%; /* Lebar penuh */
+  background-color: #333; /* Warna latar belakang footer */
+  color: #fff; /* Warna teks footer */
+  text-align: center;
+  padding: 1rem 0;
+  margin-top: auto; /* Tetap di bawah */
+}
+
+/* Styling tombol dan bagian */
+button {
+  transition: transform 0.2s ease-in-out;
+}
+
+button:hover {
+  transform: scale(1.05); /* Efek membesar saat dihover */
+}
+
+section {
+  padding: 2rem;
+  text-align: center;
+}
+
+.bg-gray-100 {
+  background-color: #f5f5f5; /* Warna abu muda */
+}
+
+.mt-16 {
+  margin-top: 4rem; /* Jarak ke atas */
+}
